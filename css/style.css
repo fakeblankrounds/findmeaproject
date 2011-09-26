@@ -272,7 +272,6 @@ div.borderBrackets
 }
 div.divider
 {
-
 	-moz-box-shadow:10px 0px 5px -10px #000000;
 	-webkit-box-shadow:10px 0px 5px -10px #000000;
 	box-shadow:10px 0px 5px -10px #000000;
@@ -398,13 +397,29 @@ div.content
 
 .bottomText
 {
+	position:relative;
 	min-height:7em;
 }
 .bottomText p
 {
-	
+	position:absolute;
+	bottom:0px;
 }
-
+div.goButton
+{
+	float:right;
+	border-radius:30px;
+	border:3px solid #769929;
+	background-color:#9AC836;
+	padding:10px;
+	color:#000;
+	font-weight:800;
+	font-size:2.5em;
+	text-align:center;
+/*	-moz-box-shadow:5px 5px 15px -5px #000000;
+	-webkit-box-shadow:5px 5px 15px -5px #000000;
+	box-shadow:5px 5px 15px -5px #000000;*/
+}
 
 
 
