@@ -1,0 +1,126 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/960.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+	<div class="container_12">
+		<div class="grid_4">
+			<h1 id="logo">HelpMeCodeThis </h1> 
+		</div>	
+		<div class="grid_2 headerLink">
+			<a href="/tutorials">Tutorials</a>
+		</div>
+		<div class="grid_2 headerLink">
+			<a href="/tutorials">Tutorials</a>
+		</div>
+		<div class="grid_2 headerLink">
+			<a href="/tutorials">Tutorials</a>
+		</div>
+	</div>
+    </header>
+
+    <div id="main" role="main">
+		<div class="container_12 nav" >
+			<h4>container_12 </h4>
+			<div class="grid_4 divider" id="indented"> 
+<ul>
+	<li><a href="/1.html">What we're makeing</a></li>
+	<li><a href="/2.html">Hello World!</a></li>
+	<li><a href="/3.html">A simple day clock</a></li>
+	<li><a href="/4.html">A fancy calendar</a></li>
+	<li><a href="/5.html">Saveing some events</a></li>
+	<li><a href="/6.html">Adding some more elements</a></li>
+	<li><a href="/7.html">Windows</a></li>
+	<li><a href="/8.html">An even fancier calendar</a></li>
+	<li><a href="/9.html">About the Author</a></li>
+	<li><a href="/0.html">Disclaimer</a></li>
+</ul>
+			</div>
+			<div class="grid_8"> 
+				<div>
+				<p>I daresay that Fry has discovered the smelliest object in the known universe! Morbo will now introduce tonight's candidates&hellip; PUNY HUMAN NUMBER ONE, PUNY HUMAN NUMBER TWO, and Morbo's good friend, Richard Nixon. Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! Um, is this the boring, peaceful kind of taking to the streets?</p> <p>Well I'da done better, but it's plum hard pleading a case while awaiting trial for that there incompetence. It doesn't look so shiny to me. When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film! I'm just glad my fat, ugly mama isn't alive to see this day. Take me to your leader! Belligerent and numerous.</p> 	
+				</div>
+				<div class="tip">
+					<p>This is a small tip dialog that will pop up when something may be considered jargon. It will show up and explain anything that might be confusing to someone who is a complete beginner or not "in the know".</p>
+				</div>
+
+				<div class="source"> 
+					<p> This is the source box. It makes sure that a person can keep up with a project even if they haven't gotten it quite right. It can also sometimes give boilerplate code for a quick start. The source box is nessary at the end of every section. </p> 
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <footer>
+		<h4>&copy;nick tkachov. 2011</h4>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+	
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
